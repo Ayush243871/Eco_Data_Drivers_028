@@ -1,0 +1,237 @@
+/* WeatherWidget.css */
+
+/* Pop-up Container */
+.weather-popup {
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    max-width: 90%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(148, 148, 197, 0.758) 0%, rgba(107, 107, 143, 0.502) 35%, rgba(181, 208, 213, 0.712) 100%);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  
+  /* Visible State */
+  .weather-popup.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Close Button */
+  .close-button {
+    align-self: flex-end;
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  /* Weather Information */
+  .weather-info {
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .city {
+    margin: 0;
+    font-size: 1.3em;
+  }
+  
+  .temp {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .unit {
+    font-size: 0.6em;
+    margin-left: 5px;
+  }
+  
+  .condition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    border: none;
+    background: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Workout Suggestion */
+  .workout {
+    margin: 10px 20px;
+    background: #e3f2fd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  /* Animated Backgrounds */
+  .animated-background {
+    position: absolute;
+    top: 0;
+    left: 1;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  /* Sun Animation */
+  .sun {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(255, 223, 0, 0.8);
+    animation: rotateSun 10s linear infinite;
+  }
+  
+  @keyframes rotateSun {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Cloud Animation */
+  .cloud {
+    position: absolute;
+    top: 20px;
+    left: -100px;
+    width: 100px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 50px 0 0 0 #fff, 25px 25px 0 0 #fff;
+    animation: moveClouds 60s linear infinite;
+  }
+  
+  @keyframes moveClouds {
+    from {
+      left: -100px;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  
+  /* Rain Animation */
+  .rain {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 10px;
+    background: blue;
+    animation: rainFall 1s linear infinite;
+  }
+  
+  @keyframes rainFall {
+    0% {
+      transform: translateY(-100%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+  }
+  
+  /* Snow Animation */
+  .snowflake {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: snowFall 5s linear infinite;
+  }
+  
+  @keyframes snowFall {
+    0% {
+      transform: translateY(-100%) translateX(0);
+      opacity: 0.8;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100%) translateX(50px);
+      opacity: 0.8;
+    }
+  }
+  
+  /* Mist/Fog Animation */
+  .mist {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: rgba(200, 200, 200, 0.5);
+    animation: mistMove 5s linear infinite;
+  }
+  
+  @keyframes mistMove {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
+
+  @media (max-width: 600px) {
+    .weather-popup {
+      width: 90%;
+      bottom: 10px;
+      right: 5px;
+    }
+    
+    .weather-info {
+      padding: 10px 15px;
+    }
+    
+    .icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
