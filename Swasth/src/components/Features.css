@@ -1,0 +1,17 @@
+.features-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 40px auto; /* Center container */
+    max-width: 1000px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .features-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
