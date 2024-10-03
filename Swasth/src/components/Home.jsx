@@ -155,7 +155,7 @@ export const Home = () => {
             <div className="col-12 col-md-4 mb-3">
               <img
                 data-aos="fade-right"
-                src="https://c4.wallpaperflare.com/wallpaper/199/924/33/muscle-muscle-bodybuilding-press-wallpaper-preview.jpg"
+                src="https://i.pinimg.com/564x/af/79/13/af7913e85a417f47d3b3aaba25b80678.jpg"
                 alt="Strong Muscular Men"
                 className="img-fluid"
               />
@@ -163,7 +163,7 @@ export const Home = () => {
             <div className="col-12 col-md-4 mb-3">
               <img
                 data-aos="fade-up"
-                src="https://www.shutterstock.com/image-photo/portrait-bearded-shirtless-bodybuilder-600nw-763494487.jpg"
+                src="https://i.pinimg.com/736x/fa/df/0f/fadf0f3874191c07ba7af1d6c6bf2526.jpg"
                 alt="Bearded Shirtless Bodybuilder"
                 className="img-fluid"
               />
@@ -171,7 +171,7 @@ export const Home = () => {
             <div className="col-12 col-md-4 mb-3">
               <img
                 data-aos="fade-left"
-                src="https://png.pngtree.com/background/20230605/original/pngtree-the-three-bodybuilders-with-their-beards-on-their-chest-and-their-picture-image_2874954.jpg"
+                src="https://i.pinimg.com/564x/80/fe/97/80fe975458af5387ec60d93eeaf691e4.jpg"
                 alt="Three Bodybuilders"
                 className="img-fluid"
               />
