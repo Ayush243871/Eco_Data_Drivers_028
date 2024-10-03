@@ -1,0 +1,113 @@
+main #home img {
+  width: 100%;
+  border-radius: 0px 0px 0px 200px;
+}
+main .gymImgs {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+main .gymImgs img {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+main .profile-intro {
+  background: #ececec;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  div {
+    img {
+      width: 30vw;
+    }
+  }
+  div {
+    padding-inline: 50px;
+  }
+}
+main .gympngs p {
+  padding-inline: 50px;
+  padding-bottom: 25px;
+}
+main .gympngs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  border-radius: 25px;
+}
+main .gympngs img {
+  width: 100px;
+  padding-top: 25px;
+  margin: auto;
+}
+
+@media (max-width: 575px) {
+  .paragraph-adjust {
+    width: 90%;
+    max-width: 300px;
+  }
+}
+
+main .guidlines {
+  background: #212429;
+  color: aliceblue;
+  padding: 90px 90px 50px 90px;
+  border-radius: 25px;
+  p {
+    padding-inline: 70px;
+    color: gray;
+  }
+}
+main .guidlines-img img {
+  margin: auto;
+}
+
+.routs {
+  padding-top: 100px;
+  text-align: center;
+}
+main .goal div {
+  margin-top: 25px;
+  text-align: center;
+  padding-inline: 50px;
+  margin-bottom: 50px;
+}
+main.goal img {
+  width: 50px;
+  object-fit: cover;
+}
+
+main .container .row-in img {
+  margin: auto;
+  padding: 20px;
+  width: 100px;
+}
+
+.users {
+  background: #212429;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+main .habbits {
+  padding: 25px;
+  background: #ececec;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  img {
+    margin: auto;
+    width: 10vw;
+  }
+  div {
+    padding-inline: 25px;
+  }
+}

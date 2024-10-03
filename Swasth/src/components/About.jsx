@@ -1,5 +1,5 @@
 import React from "react";
-import './About.css';
+import "./About.css";
 
 const About = () => {
   return (
@@ -32,7 +32,7 @@ const About = () => {
         <div className="teamSection">
           <div className="teamMember">
             <img
-              src="team-member1.jpg"
+              src="https://www.isleep.com/wp-content/uploads/2022/03/jane-doe-512px.jpg"
               alt="Team Member 1"
               className="teamImage"
             />
@@ -41,7 +41,7 @@ const About = () => {
           </div>
           <div className="teamMember">
             <img
-              src="team-member2.jpg"
+              src="https://registered-dietitians-services.com/wp-content/uploads/2019/05/team-img-500x580-1.jpg"
               alt="Team Member 2"
               className="teamImage"
             />
@@ -50,7 +50,7 @@ const About = () => {
           </div>
           <div className="teamMember">
             <img
-              src="team-member3.jpg"
+              src="https://registered-dietitians-services.com/wp-content/uploads/2019/05/team-img-500x580-1.jpg"
               alt="Team Member 3"
               className="teamImage"
             />
@@ -59,7 +59,7 @@ const About = () => {
           </div>
           <div className="teamMember">
             <img
-              src="team-member4.jpg"
+              src="https://registered-dietitians-services.com/wp-content/uploads/2019/05/team-img-500x580-1.jpg"
               alt="Team Member 4"
               className="teamImage"
             />
@@ -68,7 +68,7 @@ const About = () => {
           </div>
           <div className="teamMember">
             <img
-              src="team-member5.jpg"
+              src="https://registered-dietitians-services.com/wp-content/uploads/2019/05/team-img-500x580-1.jpg"
               alt="Team Member 5"
               className="teamImage"
             />
