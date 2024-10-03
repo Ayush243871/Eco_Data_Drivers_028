@@ -3,11 +3,13 @@ import React, { useEffect } from "react";
 import initAOS from "./../assets/aos";
 import "./../styles/Homepage.css";
 import mainimg from "./../assets/mainimg.jpeg";
+import About from "./About";
 export const Home = () => {
   useEffect(() => {
     initAOS();
   }, []);
   return (
+
     <>
       <main>
         {/* <div
@@ -46,6 +48,8 @@ export const Home = () => {
             <button className="btn btn-warning mb-4">Get Started</button>
           </div>
         </div>
+        <About/>
+
 
         {/* <div className="container guidlines mt-4 pt-5">
           <div className="guidlines-img row text-center d-flex justify-content-center">

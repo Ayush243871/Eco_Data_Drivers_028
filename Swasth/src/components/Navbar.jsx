@@ -17,9 +17,7 @@ const Navbar = () => {
           Home
         </a>
 
-        <a href="/about" className="link">
-          About
-        </a>
+        
       </div>
       <button className="loginButton">Login</button>
     </nav>
