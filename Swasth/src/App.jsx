@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./components/About"; 
 import Header from "./components/Header";
-import Features from "./components/Features";
+// import Features from "./components/Features";
 import Footer from "./components/Footer";
 
 const App = () => {
