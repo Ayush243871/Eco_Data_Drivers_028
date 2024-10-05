@@ -10,10 +10,10 @@ import { Home } from "./components/Home";
 const App = () => {
   return (
     <Router>
-      <div>
+      <div style={{ width: "100%" }}>
         <Navbar />
-        <Header />
-        <Features />
+        {/* <Header /> */}
+        {/* <Features /> */}
         <Routes>
           <Route path="/" element={<Home />} />
 

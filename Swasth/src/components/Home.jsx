@@ -9,7 +9,6 @@ export const Home = () => {
     initAOS();
   }, []);
   return (
-
     <>
       <main>
         {/* <div
@@ -24,6 +23,7 @@ export const Home = () => {
             className="img-fluid w-100 "
           />
         </div> */}
+        {/* <About /> */}
 
         <div className="profile-intro container d-flex flex-column flex-md-row align-items-center p-4">
           <div className="col-md-6 text-center text-md-left mb-4 mb-md-0">
@@ -48,8 +48,6 @@ export const Home = () => {
             <button className="btn btn-warning mb-4">Get Started</button>
           </div>
         </div>
-        <About/>
-
 
         {/* <div className="container guidlines mt-4 pt-5">
           <div className="guidlines-img row text-center d-flex justify-content-center">
@@ -153,6 +151,7 @@ export const Home = () => {
             </div>
           </div>
         </div>
+        
 
         <div className="container gymImgs">
           <div className="row">
@@ -189,8 +188,8 @@ export const Home = () => {
               data-aos="zoom-in"
               className="col-12 col-md-4 text-center mb-2"
             >
-              <img src="." alt="" className="img-fluid" />
-              <h6>Internationally Certified Coaches</h6>
+              <img src="https://www.fittr.com/static-content/goal_f9007586c4.png" alt="" className="img-fluid" />
+              <h6>Wellness is a connection of paths: knowledge and action</h6>
               <p>
                 Get expert help and guidance and achieve the results you desire
               </p>
@@ -223,6 +222,41 @@ export const Home = () => {
               <p>
                 Try FITTR risk-free, with our 'no questions asked' refund policy
               </p>
+            </div>
+          </div>
+        </div>
+
+         <div className="container guidlines mt-4 pt-5">
+          <div className="guidlines-img row text-center d-flex justify-content-center">
+            <div data-aos="fade-up" className="col-lg-6 mb-4">
+              <h1>Building Sustainable Habits</h1>
+              <p>
+                Getting fit is the easy part, staying fit is the real deal. We
+                at FITTR realize this and integrate fitness into your existing
+                lifestyle gradually to ensure you don’t lose the results.
+              </p>
+              <img
+                data-aos="fade-up"
+                src="https://www.healthifyme.com/in/images/Meal-and-Workout-Mobile-1-p-500.png"
+                alt=""
+                width={"75%"}
+                className=" img-fluid px-5 "
+              />
+            </div>
+            <div data-aos="fade-up" className="col-lg-6 mb-4">
+              <h1>Monitoring and Accountability</h1>
+              <p>
+                Our expert coaches don’t just give you diet and training plans -
+                they stay by your side as a guide and help you navigate your
+                fitness journey.
+              </p>
+              <img
+                data-aos="fade-up"
+                src="https://www.healthifyme.com/in/images/Ba-p-800.png"
+                alt=""
+                width={"75%"}
+                className="img-fluid px-5"
+              />
             </div>
           </div>
         </div>
