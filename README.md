@@ -51,4 +51,23 @@
     npm install
     ```
 
+## Usage
+- **Sign Up / Log In**: Create a new account or log in using existing credentials.
+- **Explore Dashboard**: After logging in, you'll be taken to the personalized dashboard that displays your activity, nutrition, mental wellness, and more.
+- **Track Activities**: Use the activity tracking features to monitor your steps and workout progress.
+- **Log Meals**: Input daily meals and track your nutritional intake.
+- **AI Assistant**: Chat with the AI Health Assistant for real-time health advice and recommendations.
+
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature`.
+3. Make your changes and commit them: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature`.
+5. Open a pull request.
+
+
 
