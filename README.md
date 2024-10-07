@@ -46,7 +46,7 @@
 
 ## Live Demo
 
-You can explore the live version of the app [here](https://leafy-klepon-dc5a44.netlify.app/Main/MealWrapper).
+You can explore the live version of the app [here](https://leafy-klepon-dc5a44.netlify.app/).
 
 ## Presentation Video
 
