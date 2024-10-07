@@ -41,7 +41,7 @@
 
 ## Live Demo
 
-You can explore the live version of the app [here](https://stellar-lolly-564bf6.netlify.app/).
+You can explore the live version of the app [here](https://extraordinary-entremet-c0883a.netlify.app/).
 
 ## Presentation Video
 
