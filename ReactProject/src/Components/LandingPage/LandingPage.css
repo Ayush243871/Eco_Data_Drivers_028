@@ -2,14 +2,17 @@ main #home img {
   width: 100%;
   border-radius: 0px 0px 0px 200px;
 }
+
 main .gymImgs {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 main .gymImgs img {
   border-radius: 20px;
   margin-top: 20px;
 }
+
 main .profile-intro {
   background: #ececec;
   border-radius: 25px;
@@ -20,19 +23,21 @@ main .profile-intro {
   padding-left: 150px;
   margin-top: 50px;
   margin-bottom: 50px;
-  div {
-    img {
-      width: 30vw;
-    }
-  }
-  div {
-    padding-inline: 50px;
-  }
 }
+
+main .profile-intro div img {
+  width: 30vw;
+}
+
+main .profile-intro div {
+  padding-inline: 50px;
+}
+
 main .gympngs p {
   padding-inline: 50px;
   padding-bottom: 25px;
 }
+
 main .gympngs {
   display: flex;
   justify-content: space-evenly;
@@ -42,76 +47,143 @@ main .gympngs {
   margin-bottom: 25px;
   border-radius: 25px;
 }
+
 main .gympngs img {
   width: 100px;
   padding-top: 25px;
   margin: auto;
 }
 
-@media (max-width: 575px) {
+/* Media Queries for Responsiveness */
+@media (max-width: 992px) { /* Tablet screens */
+  main .profile-intro {
+    padding-left: 20px;
+  }
+
+  main .profile-intro div {
+    padding-inline: 20px;
+  }
+
+  main .gympngs {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  main .gympngs img {
+    width: 80px; /* Smaller image size */
+  }
+}
+
+@media (max-width: 575px) { /* Mobile screens */
   .paragraph-adjust {
     width: 90%;
     max-width: 300px;
   }
-}
 
-main .guidlines {
-  background: #212429;
-  color: aliceblue;
-  padding: 90px 90px 50px 90px;
-  border-radius: 25px;
-  p {
-    padding-inline: 70px;
-    color: gray;
+  main .profile-intro {
+    flex-direction: column; /* Stack items vertically */
+    padding-left: 0; /* Remove left padding */
+  }
+
+  main .profile-intro div img {
+    width: 70vw; /* Larger images for mobile */
+  }
+
+  main .gympngs {
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 20px; /* Reduce top margin */
+  }
+
+  main .gympngs p {
+    padding-inline: 10px; /* Reduced padding */
+  }
+
+  main .gympngs img {
+    width: 60px; /* Smaller image size */
+  }
+
+  main .guidlines {
+    padding: 50px 20px; /* Adjust padding for mobile */
+  }
+
+  main .guidlines p {
+    padding-inline: 10px; /* Reduced padding */
+    color: gray; /* Ensure text is readable */
+  }
+
+  main .goal div {
+    padding-inline: 20px; /* Reduced padding */
+  }
+
+  main.goal img {
+    width: 40px; /* Smaller icons */
+  }
+
+  main .container .row-in img {
+    width: 80px; /* Smaller image size */
+  }
+
+  main .habbits {
+    flex-direction: column; /* Stack items vertically */
+    padding: 15px; /* Reduced padding */
+  }
+
+  main .habbits img {
+    width: 60vw; /* Adjust image size */
+  }
+
+  main .habbits div {
+    padding-inline: 15px; /* Reduced padding */
+  }
+
+  .users {
+    padding: 10px; /* Added padding for users section */
   }
 }
-main .guidlines-img img {
-  margin: auto;
-}
 
-.routs {
-  padding-top: 100px;
-  text-align: center;
-}
-main .goal div {
-  margin-top: 25px;
-  text-align: center;
-  padding-inline: 50px;
-  margin-bottom: 50px;
-}
-main.goal img {
-  width: 50px;
-  object-fit: cover;
-}
-
-main .container .row-in img {
-  margin: auto;
-  padding: 20px;
-  width: 100px;
-}
-
-.users {
-  background: #212429;
+.guidlines {
+  padding: 90px 90px 50px 90px; /* Original padding */
   border-radius: 25px;
-  margin-top: 25px;
 }
 
-main .habbits {
-  padding: 25px;
-  background: #ececec;
-  border-radius: 25px;
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  img {
-    margin: auto;
-    width: 10vw;
+.guidlines-img img {
+  width: 75%; /* Default width for larger screens */
+  margin: auto; /* Centering the image */
+}
+
+@media (max-width: 992px) { /* Tablet screens */
+  .guidlines {
+    padding: 70px 20px; /* Adjusted padding for tablets */
   }
-  div {
-    padding-inline: 25px;
+
+  .guidlines-img img {
+    width: 90%; /* Wider images for tablets */
   }
 }
 
+@media (max-width: 575px) { /* Mobile screens */
+  .guidlines {
+    padding: 50px 15px; /* Reduced padding for mobile */
+  }
+
+  .guidlines h1 {
+    font-size: 1.5rem; /* Smaller font size for headings */
+  }
+
+  .guidlines p {
+    font-size: 1rem; /* Smaller font size for paragraphs */
+    padding-inline: 10px; /* Added padding for text */
+  }
+
+  .guidlines-img {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .guidlines-img img {
+    width: 100%; /* Full-width images on mobile */
+    max-width: 300px; /* Max width for images */
+  }
+}
 
 
 
