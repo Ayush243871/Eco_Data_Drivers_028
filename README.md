@@ -32,7 +32,6 @@ https://www.youtube.com/watch?v=SUiFYgLXLRQ&feature=youtu.be
 - **Personalized Health Plans**: Tailored workout and meal recommendations based on user preferences and goals.
 - **Health Roadmap**: Visual health roadmap built using tree data structures for easy tracking.
 - **AI Health Assistant**: Get real-time health advice and suggestions from the AI-powered assistant.
-- **Doctor Appointments**: Book and manage appointments with healthcare professionals.
 - **Dashboard**: Interactive and informative dashboard post-login for managing all health metrics.
 - **Health Insights**: View your health progress and suggestions based on collected data.
 - **Responsive Design**: Fully responsive design for seamless use on mobile and desktop devices.
@@ -41,8 +40,6 @@ https://www.youtube.com/watch?v=SUiFYgLXLRQ&feature=youtu.be
 - **Frontend**: React, Chakra UI for styling
 - **Backend**: Firebase database and authentication
 - **Data Visualization**: Charts and graphs for health progress and statistics
-- **APIs**:
-- **Algorithms**: 
 - **Other**: Custom hooks, advanced state management using Redux
 
 ## Installation
@@ -53,7 +50,7 @@ https://www.youtube.com/watch?v=SUiFYgLXLRQ&feature=youtu.be
     ```
 2. **Navigate to the Project Directory**:
     ```bash
-    cd swasth
+    cd ReactProject
     ```
 3. **Install Dependencies**:
     ```bash
