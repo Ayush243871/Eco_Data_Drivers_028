@@ -1,79 +1,63 @@
-# Swasth WellNess Redefined
-
-**Tagline**: Experience a holistic approach to well-being with tailored health plans, activity tracking, balanced nutrition, and mental wellness support—all seamlessly integrated. Empower your well-being journey with expert recommendations and real-time health insights.
-
-## Project Type
-Fullstack
-
-## Deplolyed App
-Frontend: https://deployed-site.whatever
-
-## Video Walkthrough of the project
-https://www.youtube.com/watch?v=SUiFYgLXLRQ&feature=youtu.be
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+# Swasth
 
 ## Introduction
-**Swasth Well Ness Redefined** is a comprehensive health and wellness platform aimed at providing a personalized and holistic approach to health management. It combines physical activity tracking, nutrition management, mental wellness insights, and expert recommendations into one unified experience. The goal is to empower users to achieve their wellness goals by offering real-time health insights and personalized health plans.
+
+**Swasth** is a health and fitness website designed to help users monitor their health statistics, track physical activities, and manage key health metrics such as BMI, calorie intake, and workout routines. The platform provides a visually appealing interface and delivers real-time data visualization and personalized health insights, offering an interactive and user-friendly experience.
 
 ## Features
-- **User Authentication**: Secure login and signup functionality.
-- **Physical Activity Tracking**: Track your daily steps, workout goals, and progress using charts and tables.
-- **Nutrition Management**: Log meals and monitor daily nutritional intake using the USDA Central Food API.
-- **Mental Wellness Support**: Personalized mental wellness tips and mood tracking.
-- **Personalized Health Plans**: Tailored workout and meal recommendations based on user preferences and goals.
-- **Health Roadmap**: Visual health roadmap built using tree data structures for easy tracking.
-- **AI Health Assistant**: Get real-time health advice and suggestions from the AI-powered assistant.
-- **Dashboard**: Interactive and informative dashboard post-login for managing all health metrics.
-- **Health Insights**: View your health progress and suggestions based on collected data.
-- **Responsive Design**: Fully responsive design for seamless use on mobile and desktop devices.
 
-## Tech Stack
-- **Frontend**: React, Chakra UI for styling
-- **Backend**: Firebase database and authentication
-- **Data Visualization**: Charts and graphs for health progress and statistics
-- **Other**: Custom hooks, advanced state management using Redux
+- **Health Stats Overview**: Displays key metrics including BMI, calorie intake, and other important health data.
+- **Activity Tracking**: Allows users to monitor their daily, weekly, and monthly physical activities through informative charts and statistics.
+- **Responsive Design**: Optimized for seamless usage across all devices including desktops, tablets, and mobile phones.
+- **AI-Powered Chatbot**: Provides instant health-related assistance and recommendations to users, enhancing their overall experience.
+- **Modern User Interface**: Built with React.js and Chakra UI (optional), the application boasts a clean, intuitive, and consistent user interface.
 
-## Installation
+## Technology Stack
 
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/Ayush243871/Eco_Data_Drivers_028.git
-    ```
-2. **Navigate to the Project Directory**:
-    ```bash
-    cd ReactProject
-    ```
-3. **Install Dependencies**:
-    ```bash
-    npm install
-    ```
+- **Frontend**: React.js, Vite
+- **UI Framework**: Chakra UI (optional)
+- **CSS**: Custom CSS for component styling
+- **JavaScript**: Handles dynamic functionality and data management
 
-## Usage
-- **Sign Up / Log In**: Create a new account or log in using existing credentials.
-- **Explore Dashboard**: After logging in, you'll be taken to the personalized dashboard that displays your activity, nutrition, mental wellness, and more.
-- **Track Activities**: Use the activity tracking features to monitor your steps and workout progress.
-- **Log Meals**: Input daily meals and track your nutritional intake.
-- **AI Assistant**: Chat with the AI Health Assistant for real-time health advice and recommendations.
+## Key Components
 
+1. **Health Stats Overview**
+   - Displays real-time health metrics like BMI and calorie intake.
+   - Easy-to-read charts and visualizations provide quick insights.
 
-## Contributing
+2. **Activity Tracking**
+   - Tracks physical activities such as steps, exercises, and workouts.
+   - Users can view their progress in daily, weekly, and monthly charts.
 
-Contributions are welcome! Please follow these steps:
+3. **Chatbot**
+   - An AI-powered chatbot responds to user queries related to health, fitness, and nutrition.
+   - Provides personalized recommendations based on user input.
+   
+4. **Responsive Design**
+   - Designed for a consistent and smooth experience across different screen sizes, including mobile devices.
+   
+5. **Modern UI**
+   - Clean and minimalistic design for a visually appealing user experience.
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/your-feature`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature/your-feature`.
-5. Open a pull request.
+## Live Demo
 
+You can explore the live version of the app [here](https://stellar-lolly-564bf6.netlify.app/).
 
+## Presentation Video
 
+Check out the presentation video [here](https://youtu.be/SUiFYgLXLRQ).
+
+## Getting Started
+
+To get a local copy of the project up and running, follow these steps:
+
+### Prerequisites
+- Node.js installed on your machine.
+- npm or yarn package manager.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/swasth.git
