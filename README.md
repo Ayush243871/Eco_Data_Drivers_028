@@ -2,6 +2,15 @@
 
 **Tagline**: Experience a holistic approach to well-being with tailored health plans, activity tracking, balanced nutrition, and mental wellness support—all seamlessly integrated. Empower your well-being journey with expert recommendations and real-time health insights.
 
+## Project Type
+Fullstack
+
+## Deplolyed App
+Frontend: https://deployed-site.whatever
+
+## Video Walkthrough of the project
+https://www.youtube.com/watch?v=SUiFYgLXLRQ&feature=youtu.be
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
