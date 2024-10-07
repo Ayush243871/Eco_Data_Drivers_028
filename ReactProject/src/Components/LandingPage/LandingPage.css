@@ -1,0 +1,158 @@
+main #home img {
+  width: 100%;
+  border-radius: 0px 0px 0px 200px;
+}
+main .gymImgs {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+main .gymImgs img {
+  border-radius: 20px;
+  margin-top: 20px;
+}
+main .profile-intro {
+  background: #ececec;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  div {
+    img {
+      width: 30vw;
+    }
+  }
+  div {
+    padding-inline: 50px;
+  }
+}
+main .gympngs p {
+  padding-inline: 50px;
+  padding-bottom: 25px;
+}
+main .gympngs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  border-radius: 25px;
+}
+main .gympngs img {
+  width: 100px;
+  padding-top: 25px;
+  margin: auto;
+}
+
+@media (max-width: 575px) {
+  .paragraph-adjust {
+    width: 90%;
+    max-width: 300px;
+  }
+}
+
+main .guidlines {
+  background: #212429;
+  color: aliceblue;
+  padding: 90px 90px 50px 90px;
+  border-radius: 25px;
+  p {
+    padding-inline: 70px;
+    color: gray;
+  }
+}
+main .guidlines-img img {
+  margin: auto;
+}
+
+.routs {
+  padding-top: 100px;
+  text-align: center;
+}
+main .goal div {
+  margin-top: 25px;
+  text-align: center;
+  padding-inline: 50px;
+  margin-bottom: 50px;
+}
+main.goal img {
+  width: 50px;
+  object-fit: cover;
+}
+
+main .container .row-in img {
+  margin: auto;
+  padding: 20px;
+  width: 100px;
+}
+
+.users {
+  background: #212429;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+main .habbits {
+  padding: 25px;
+  background: #ececec;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  img {
+    margin: auto;
+    width: 10vw;
+  }
+  div {
+    padding-inline: 25px;
+  }
+}
+
+
+
+
+/* marque trial 
+ */
+ /* .marquee {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+} */
+/* 
+.marquee div {
+  /* min-width: 220px; /* Ensure each element has enough width */
+  /* height: 300px; Set a fixed height for consistency */
+  /* margin-right: 20px; Add space between each card */
+  /* padding: 20px; */
+  /* animation: marquee-left 10s linear infinite; */
+  /* background-color: #f8f9fa; Background for better visibility */
+  /* border-radius: 10px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); Optional shadow for better design */
+  /* transition: all 0.3s ease-in-out; */
+/* } */
+
+/* Marquee Animation */
+/* @keyframes marquee-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+/* Hover Effect to Stop Marquee */
+/* .marquee:hover div {
+  animation-play-state: paused; /* Pause the animation on hover */
+/* } */
+
+/* Ensures images fit within the div */
+/* .marquee img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+} */

@@ -1,0 +1,49 @@
+.form-container {
+    position: relative;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Keeps the form content opaque */
+    z-index: 1;
+}
+
+.form-container::before {
+    content: "";
+    position: absolute;
+    top: 4;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-vector/body-mass-index-weight-control-with-bmi-healthy-unhealthy-lifestyle-flat-vector-illustration-fitness-indicator-before-after-diet-overall-health-body-fat-scale-concept_88138-795.jpg?t=st=1728241057~exp=1728244657~hmac=20cf0911c3f8ebeeafe8fb6933804cda09da0de83a1f71e19350d1a68a19b574&w=1380');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2; /* Adjust the background image opacity */
+    border-radius: 15px;
+    z-index: -1; /* Ensures the background stays behind the form */
+}
+
+.form-container form {
+    position: relative;
+    z-index: 5;
+}
+
+button {
+    z-index: 5;
+}
+
+/* New styles for feedback box */
+.feedback-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 20px; /* Padding for better spacing */
+    margin-top: 20px; /* Spacing above the feedback box */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-text {
+    color: #333; /* Darker text color for better visibility */
+    font-weight: bold; /* Make the feedback text bold */
+}

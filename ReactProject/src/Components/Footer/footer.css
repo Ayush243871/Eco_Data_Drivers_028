@@ -1,0 +1,57 @@
+.footer {
+    background-color: rgb(122, 172, 202);
+    color: white;
+    padding: 20px; /* Adjusted padding */
+    text-align: center;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+    align-items: start; /* Align items to the start */
+}
+
+.footer-title {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.app-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between app links */
+}
+
+.footer-contact,
+.footer-follow {
+    text-align: center;
+}
+
+.footer-contact h3,
+.footer-follow h3 {
+    font-size: 20px;
+    color: #1abc9c; /* Heading color */
+    margin: 10px 0; /* Adjusted margin */
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between social icons */
+}
+
+.social-icon {
+    color: white;
+    transition: transform 0.3s, color 0.3s;
+    font-size: 24px;
+}
+
+.social-icon:hover {
+    color: #1abc9c; /* Teal color on hover */
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+.footer-rights {
+    margin-top: 20px; /* Space above rights text */
+}

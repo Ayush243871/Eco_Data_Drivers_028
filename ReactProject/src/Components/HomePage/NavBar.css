@@ -1,0 +1,129 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgba(49, 151, 149, 0.9); /* Lighter teal background for the navbar */
+    padding: 5px 20px; /* Decreased height for the navbar */
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between; /* Space between logo and hamburger */
+    align-items: center; /* Center items vertically */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+    color: white; /* Text color */
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Center logo vertically */
+    width: "90px";
+}
+.logo img {
+    width: 80px;
+    height: 70px;
+}
+
+.hamburger {
+    display: none; /* Initially hidden */
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+    /* Centering it vertically in the navbar */
+    align-items: center; /* Center hamburger icon items */
+}
+
+.bar {
+    width: 30px; /* Wider bars for better touch targets */
+    height: 3px;
+    background-color: white; /* Light bars for visibility */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+/* Additional CSS remains the same... */
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* Show hamburger icon on mobile */
+        margin-left: auto; /* Push the hamburger menu to the right */
+    }
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center; /* Align items vertically */
+}
+
+.nav-links li {
+    margin: 0 15px; /* More space between links */
+}
+
+.nav-links a {
+    color: white; /* White text for nav links */
+    text-decoration: none;
+    font-weight: 600; /* Slightly bolder text */
+    padding: 8px 15px; /* Padding for links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+.nav-links a:hover {
+    background-color: rgba(52, 152, 219, 0.2); /* Light blue background on hover */
+    color: #2980b9; /* Darker blue on hover */
+}
+
+.nav-links a.active {
+    background-color: #2980b9; /* Highlight color for active link */
+    color: white; /* White text for active link */
+}
+
+/* Logout Button Styles */
+.logout-btn {
+    background-color: #e74c3c; /* Red color for logout */
+    color: white;
+    border: none;
+    padding: 8px 15px; /* Consistent padding */
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.logout-btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* Show hamburger icon on mobile */
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 0;
+        top: 60px; /* Adjusted top position */
+        background-color: rgba(255, 255, 255, 0.9); /* Light background for dropdown */
+        color: black; /* Text color for links */
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%); /* Start hidden */
+        transition: transform 0.3s ease;
+        box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5); /* Subtle shadow for dropdown */
+    }
+
+    .nav-links.open {
+        transform: translateX(0); /* Show menu */
+    }
+
+    .nav-links li {
+        margin: 15px 0; /* Adjusted margin for better spacing */
+    }
+
+    .nav-links a {
+        color: black; /* Black text for links in light theme */
+    }
+}
