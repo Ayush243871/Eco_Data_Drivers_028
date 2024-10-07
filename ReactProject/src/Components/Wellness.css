@@ -1,0 +1,142 @@
+.wellness-tips-container {
+  position: relative;
+  padding: 40px 20px;
+  color: #333;
+  text-align: center;
+  min-height: 100vh;
+  overflow: hidden; /* Prevent overflow issues */
+  background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+.wellness-tips-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://img.freepik.com/free-vector/healthcare-center-logo-template-set_53876-118356.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.03;
+  z-index: 1; /* Keep background behind other elements */
+}
+
+.header-section {
+  margin-bottom: 50px;
+  z-index: 2; /* Ensure header is on top of the background */
+}
+
+.header-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #2d3748;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.header-description {
+  font-size: 1.5rem;
+  color: #718096;
+}
+
+/* Styles for the wellness tips */
+.wellness-tips {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.wellness-tip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0; /* Reduced margin for better spacing */
+  opacity: 0;
+  transform: translateY(100px);
+  transition: transform 0.8s ease, opacity 0.8s ease;
+  width: 100%; /* Full width for alignment */
+  max-width: 1200px; /* Max width for larger screens */
+  background: white; /* Card background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: relative; /* For image overlay */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.wellness-tip-left {
+  flex-direction: row-reverse;
+}
+
+.wellness-tip-right {
+  flex-direction: row;
+}
+
+.tip-content {
+  padding: 20px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.tip-content h2 {
+  font-size: 2rem;
+  color: #2d3748;
+  margin-bottom: 10px; /* Added margin for better spacing */
+}
+
+.tip-content p {
+  font-size: 1.2rem;
+  color: #4a5568;
+}
+
+/* Tip image styling */
+/* Tip image styling */
+.tip-image {
+    width: 100%; /* Full width for responsive images */
+    height: 250px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Hover effect */
+}
+
+.tip-image:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .wellness-tip {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .wellness-tip-left, .wellness-tip-right {
+      flex-direction: column;
+  }
+
+  .tip-image {
+      width: 100%;
+      max-width: none; /* Remove max-width for small screens */
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+  .tip-content {
+      padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+      font-size: 2.5rem; /* Smaller title on mobile */
+  }
+
+  .header-description {
+      font-size: 1.2rem; /* Smaller description on mobile */
+  }
+}

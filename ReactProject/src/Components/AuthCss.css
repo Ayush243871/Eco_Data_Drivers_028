@@ -1,0 +1,136 @@
+/* AuthComponent.css */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('your-background-image.jpg') no-repeat center center/cover; /* Add background image */
+  }
+  
+  .form-container {
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency for better background blending */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 1rem;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  input::placeholder {
+    color: #999; /* Placeholder color */
+  }
+  
+  input:focus {
+    border-color: #4a90e2;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #357abd;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .toggle-text {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .toggle-link {
+    color: #4a90e2;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .toggle-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 1.5rem;
+      max-width: 100%;
+    }
+  
+    h2 {
+      font-size: 1.6rem;
+    }
+  
+    .btn {
+      padding: 0.7rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form-container {
+      padding: 1rem;
+    }
+  
+    h2 {
+      font-size: 1.4rem;
+    }
+  
+    .btn {
+      padding: 0.6rem;
+    }
+  }
+  
+
+  .password-container {
+    position: relative;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
